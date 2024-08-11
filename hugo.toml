@@ -1,6 +1,32 @@
 baseURL = 'https://kongsvik.dev/'
 languageCode = 'en-us'
 title = 'Kongsvik Dev Blog'
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
 [module]
   [[module.imports]]
     path = 'github.com/adityatelange/hugo-PaperMod'
+
+[menus]
+  [[menus.main]]
+   identifier = "archive"
+   name = "archive"
+   url = "/archive/"
+   weight = 10
+ 
+[params]
+  disableThemeToggle = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  [params.contact]
+    email = "tobias@kongsvik.dev"
+  [params.homeInfoParams]
+    Title = 'Hello :wave:'
+    Content = 'This is where I post my ramblings about software development'
+  [[params.socialIcons]]
+    name = "github"
+    url =  "https://github.com/tokongs"
+  [[params.socialIcons]]
+    name =  "linkedin"
+    url =  "https://linkedin.com/in/tobiaskongsvik"

@@ -3,7 +3,7 @@ email: tobias@kongsvik.dev
 description: >-
   Ramblings about software development
 baseurl: ""
-url: "https://tokongs.github.io"
+url: "https://kongsvik.dev"
 github_username:  tokongs
 
 theme: minima

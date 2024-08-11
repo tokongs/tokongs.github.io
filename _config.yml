@@ -1,0 +1,11 @@
+title: Kongsvik Dev Blog
+email: tobias@kongsvik.dev
+description: >-
+  Ramblings about software development
+baseurl: ""
+url: "https://tokongs.github.io"
+github_username:  tokongs
+
+theme: minima
+plugins:
+  - jekyll-feed

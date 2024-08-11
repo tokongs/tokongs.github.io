@@ -1,0 +1,6 @@
+baseURL = 'https://kongsvik.dev/'
+languageCode = 'en-us'
+title = 'Kongsvik Dev Blog'
+[module]
+  [[module.imports]]
+    path = 'github.com/adityatelange/hugo-PaperMod'

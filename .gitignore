@@ -1,6 +1,4 @@
-_site
-.sass-cache
-.jekyll-cache
-.jekyll-metadata
-vendorock
-Gemfile.lock
+public/
+resources/_gen/
+
+.hugo_build.lock

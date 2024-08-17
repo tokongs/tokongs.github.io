@@ -1,6 +1,6 @@
 baseURL = 'https://kongsvik.dev/'
 languageCode = 'en-us'
-title = 'Kongsvik Dev Blog'
+title = 'Kongsvik Software Development Blog'
 enableEmoji = true
 enableGitInfo = true
 enableRobotsTXT = true
@@ -16,14 +16,18 @@ enableRobotsTXT = true
    weight = 10
  
 [params]
+  description = "A software development blog where I write about tech I find interesting"
+  author = "Tobias Slettemoen Kongsvik"
   disableThemeToggle = true
   ShowShareButtons = true
   ShowCodeCopyButtons = true
+  [params.assets]
+    favicon = "favicon.svg"
   [params.contact]
     email = "tobias@kongsvik.dev"
   [params.homeInfoParams]
     Title = 'Hello :wave:'
-    Content = 'This is where I post my ramblings about software development'
+    Content = "I'm Tobias Kongsvik. This is where I post my ramblings about software development."
   [[params.socialIcons]]
     name = "github"
     url =  "https://github.com/tokongs"

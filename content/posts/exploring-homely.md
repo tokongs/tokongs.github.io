@@ -2,10 +2,11 @@
 title = 'Exploring the Homely API with Go'
 date = 2024-08-12T21:09:35+02:00
 tags = ["Go", "Socket.IO", "Home automation"]
+description = "I've played around with The Homely API using Go. Here's what I've found when writing a small client library."
 +++
 
 Recently, I moved to a new apartment and "inherited" a subscription to the home alarm service 
-[Homely](https://www.homely.no/). This system has a series of fire alarms, motion sensors, door sensors and a Yale 
+[Homely](https://www.homely.no/). This system has a series of smoke detectors, motion sensors, door sensors and a Yale 
 door lock. These devices all communicate their state back to Homely through the Zigbee gateway. I also run an instance 
 of Home Assitant with Zigbee2MQTT for the rest of my home automation needs. Sadly, the Homly Zigbee network can't 
 connect to my Home Assitant network. There is also no other way to integrate these locally, as far as I know at least.  
